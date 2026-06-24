@@ -1,0 +1,4 @@
+# Keep line endings LF in the repo so the CLI's shebang works on Linux/macOS,
+# regardless of each contributor's core.autocrlf setting.
+* text=auto eol=lf
+*.mjs text eol=lf

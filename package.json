@@ -1,0 +1,38 @@
+{
+  "name": "claude-history-migrate",
+  "version": "1.0.0",
+  "description": "Migrate Claude Code conversation history & memory across machines — fixes the /resume entrypoint filter, project-path encoding, and cwd remapping.",
+  "type": "module",
+  "bin": {
+    "claude-history-migrate": "./claude-history-migrate.mjs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "author": "lvusyy",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "migration",
+    "history",
+    "resume",
+    "memory",
+    "backup",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvusyy/claude-history-migrate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lvusyy/claude-history-migrate/issues"
+  },
+  "homepage": "https://github.com/lvusyy/claude-history-migrate#readme",
+  "files": [
+    "claude-history-migrate.mjs",
+    "README.md",
+    "LICENSE"
+  ]
+}
